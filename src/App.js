@@ -1,9 +1,12 @@
 import './App.css';
+import Nav from './components/Nav/Nav';
+import Home from './Home/Home';
 
 function App() {
    return (
-      <div className="App">
-         <h1>Daily tracker</h1>
+      <div>
+         <Nav></Nav>
+         <Home />
       </div>
    );
 }
