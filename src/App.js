@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './components/Nav/Nav';
+import Qna from './components/Qna/Qna';
 import Home from './Home/Home';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <div>
          <Nav></Nav>
          <Home />
+         <Qna />
       </div>
    );
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Qna from '../components/Qna/Qna';
 const Home = () => {
    const [activities, setActivities] = useState([]);
    const [timeRecquire, setTimerecquire] = useState(0);
