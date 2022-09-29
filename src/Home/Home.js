@@ -9,10 +9,16 @@ const Home = () => {
          .then((res) => res.json())
          .then((data) => setActivities(data));
    }, []);
+   useEffect(() => {
+      const prevBreakTime = localStorage.getItem('breakTime');
+      setBreakeTime(prevBreakTime);
+   }, []);
    const handleBreakClick = (e) => {
-      const theValue = e.currentTarget.value;
-      setBreakeTime(parseInt(theValue));
+      const theValue = parseInt(e.currentTarget.value);
+      localStorage.setItem('breakTime', theValue);
+      setBreakeTime(theValue);
    };
+
    return (
       <div className="grid grid-cols-3 lg:grid-cols-5">
          <div className="m-5 col-span-2 md:grid md:grid-cols-2 gap-4 lg:col-span-4 lg:grid-cols-3">
