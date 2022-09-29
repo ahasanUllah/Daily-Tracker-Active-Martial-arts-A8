@@ -1,56 +1,65 @@
 [
    {
       "id": 1,
-      "name": "Veronica Rieme",
+      "name": "Self defense",
       "time": 26,
-      "image": "http://dummyimage.com/250x.png/ff4444/ffffff"
+      "image": "https://images.unsplash.com/photo-1585537884613-1a9bcd024983?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "description": "Physical self-defense is the use of physical force to counter an immediate threat of violence. Such force can be either armed or unarmed."
    },
    {
       "id": 2,
-      "name": "Ingrim Murton",
+      "name": "Martial Marvels",
       "time": 52,
-      "image": "http://dummyimage.com/250x.png/cc0000/ffffff"
+      "image": "https://cdn.thecoolist.com/wp-content/uploads/2022/01/Types-of-Martial-Arts-Karate.png",
+      "description": "While all martial arts training can be argued to have some self-defense applications"
    },
    {
       "id": 3,
-      "name": "Roby Kimmel",
+      "name": "Martial Arts Trivia",
       "time": 32,
-      "image": "http://dummyimage.com/250x.png/cc0000/ffffff"
+      "image": "https://images.unsplash.com/photo-1514050566906-8d077bae7046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80",
+      "description": "According to Paul Bowman, the term martial arts was popularized by mainstream popular culture during the 1960s to 1970s."
    },
    {
       "id": 4,
-      "name": "Monah O'Doogan",
+      "name": "Social and emotional development",
       "time": 42,
-      "image": "http://dummyimage.com/250x.png/ff4444/ffffff"
+      "image": "https://images.unsplash.com/photo-1549951490-363c7e240302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "description": "Unarmed martial arts can be broadly grouped into those focusing on strikes, those focusing on grappling, and those that cover both fields, often described as hybrid martial arts."
    },
    {
       "id": 5,
-      "name": "Hetty Wannes",
+      "name": "Focus on discipline and healthy habits",
       "time": 47,
-      "image": "http://dummyimage.com/250x.png/5fa2dd/ffffff"
+      "image": "https://images.unsplash.com/photo-1550759774-a027cb60b309?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1153&q=80",
+      "description": "Martial arts can also be linked with religion and spirituality. Numerous systems are reputed to have been founded, disseminated, or practiced by monks or nuns."
    },
    {
       "id": 6,
-      "name": "Oliviero Hornung",
+      "name": "Pre- planned sessions",
       "time": 28,
-      "image": "http://dummyimage.com/250x.png/5fa2dd/ffffff"
+      "image": "https://images.unsplash.com/photo-1530417838433-4b24dd3f72d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+      "description": "Some martial arts in various cultures can be performed in dance-like settings for various reasons"
    },
    {
       "id": 7,
-      "name": "Ronnica Chudleigh",
+      "name": "Dedicated Trainers sessions",
       "time": 53,
-      "image": "http://dummyimage.com/250x.png/ff4444/ffffff"
+      "image": "https://images.unsplash.com/photo-1542937306-0a804f0ad7b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "description": "Some martial arts in various cultures can be performed in dance-like settings for various reasons, such as for evoking ferocity in preparation for battlet"
    },
    {
       "id": 8,
-      "name": "Leia Rummery",
+      "name": "Sessions with a group",
       "time": 50,
-      "image": "http://dummyimage.com/250x.png/dddddd/000000"
+      "image": "https://images.unsplash.com/photo-1529566193698-bc394165d541?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80",
+      "description": "Some martial artists compete in non-sparring competitions such as breaking or choreographed routines of techniques such as poomse, kata and aka."
    },
    {
       "id": 9,
-      "name": "Trish Drews",
+      "name": "Practice KICKBOXING",
       "time": 34,
-      "image": "http://dummyimage.com/250x.png/5fa2dd/ffffff"
+      "image": "https://images.unsplash.com/photo-1529630218527-7df22fc2d4ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+      "description": "Traditional Korean martial arts place emphasis on the development of the practitioner's spiritual and philosophical development."
    }
 ]

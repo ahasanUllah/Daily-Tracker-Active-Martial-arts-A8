@@ -8,14 +8,15 @@ const Home = () => {
          .then((data) => setActivities(data));
    }, []);
    return (
-      <div className="grid grid-cols-6 ">
-         <div className="col-span-5 ml-80 mt-10 grid grid-cols-3">
+      <div className="grid grid-cols-3 lg:grid-cols-5">
+         <div className="m-5 col-span-2 md:grid md:grid-cols-2 gap-4 lg:col-span-4 lg:grid-cols-3">
             {activities.map((activity) => (
                <Activity activity={activity} />
             ))}
          </div>
-         <div className="bg-primary">
-            <h1>This is sidebar</h1>
+         <div className="bg-primary col-span-1  ">
+            <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="" className="w-12 rounded-full" />
+            <h1 className="text-md font-bold">Ahsan Ullah</h1>
          </div>
       </div>
    );
