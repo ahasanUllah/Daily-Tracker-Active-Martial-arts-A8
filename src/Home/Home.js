@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Home = () => {
    const [activities, setActivities] = useState([]);
    const [timeRecquire, setTimerecquire] = useState(0);
@@ -18,7 +20,7 @@ const Home = () => {
       localStorage.setItem('breakTime', theValue);
       setBreakeTime(theValue);
    };
-
+   const notify = () => toast.success('Wow you completed all the activity');
    return (
       <div className="grid grid-cols-3 lg:grid-cols-5">
          <div className="m-5 col-span-2 md:grid md:grid-cols-2 gap-4 lg:col-span-4 lg:grid-cols-3">
@@ -81,6 +83,12 @@ const Home = () => {
                <div className="bg-base-100 flex justify-around items-center mt-8 mx-5 p-4 rounded-md">
                   <h1 className="font-semibold">Break Time</h1>
                   <p>{breakeTime}m</p>
+               </div>
+               <div className="flex justify-center mt-8">
+                  <button className="btn btn-primary block text-center" onClick={notify}>
+                     Activity Completed
+                  </button>
+                  <ToastContainer />
                </div>
             </div>
          </div>
