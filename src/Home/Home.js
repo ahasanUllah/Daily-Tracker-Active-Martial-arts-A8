@@ -63,7 +63,7 @@ const Home = () => {
                   <button className="bg-white rounded-full p-1" onClick={handleBreakClick} value="5">
                      5m
                   </button>
-                  <button className="bg-white rounded-full p-1" onClick={handleBreakClick} value="10">
+                  <button className="bg-white rounded-full p-1 " onClick={handleBreakClick} value="10">
                      10m
                   </button>
                   <button className="bg-white rounded-full p-1" onClick={handleBreakClick} value="20">
