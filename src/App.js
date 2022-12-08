@@ -8,7 +8,6 @@ function App() {
       <div>
          <Nav></Nav>
          <Home />
-         <Qna />
       </div>
    );
 }
